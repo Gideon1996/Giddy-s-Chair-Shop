@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'inter', sans-serif;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 24px;
+    font-size: 44px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+
+p{
+    line-height: 1.7;
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.container{
+    margin: 20px auto;
+    width: 95%;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 80px;
+}
+
+.header-section{
+    
+}
+
+.header-text-title, .special, .img-grid-header{
+    margin-bottom: 50px;
+}
+
+.header-text-par, .flex-heading, .quote-header{
+    margin-bottom: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 80px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.grid-img{
+    width: 400px;
+    height: 200px;
+}
+
+.box5{
+    grid-column: -3/ -1;
+}
+
+.quote-par{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quote{
+    font-weight: 700;
+    /* line-height: 1.7; */
+    letter-spacing: 0.5px;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-end;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-bottom: 30px;
+    place-items: center;
+}
+
+.gridImg{
+    width: 400px;
+}
+
+.best-selling-flex ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.check-out{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
